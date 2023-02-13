@@ -1,7 +1,13 @@
+import DU from "./components/du"
+import Header from "./components/Header"
+
 function App() {
   return (
-    <div className="App bg-green-600 h-screen w-screen">
-      <div className="text-center text-4xl">hi</div>
+    <div className="App bg-slate-800 text-white">
+      <div>
+        <Header />
+        <DU />
+      </div>
     </div>
   )
 }
