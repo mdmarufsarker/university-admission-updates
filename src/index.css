@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@400;500&family=Baloo+Da+2:wght@400;500&family=Poppins:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body{
+  font-family: 'Atma', cursive;
+  font-family: 'Baloo Da 2', cursive;
+  font-family: 'Poppins', sans-serif;
+}
